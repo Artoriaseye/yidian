@@ -14,4 +14,6 @@ module.exports = app => {
   app.post('/v1/posts/:postId/like', 'post.like');
   app.post('/v1/posts/:postId/report', 'post.report');
   app.delete('/v1/posts/:postId', 'post.destroy');
+
+  //sever
 };

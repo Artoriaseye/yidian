@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\controller",
-    "\\app\\middleware",
-    "\\app\\model",
-    "\\app\\public"
+    "\\app\\view\\news"
   ],
-  "SelectedNode": "\\app\\controller\\comment.js",
+  "SelectedNode": "\\app\\router.js",
   "PreviewInSolutionExplorer": false
 }
