@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\view\\news"
+    "\\app\\controller",
+    "\\app\\extend",
+    "\\app\\middleware"
   ],
-  "SelectedNode": "\\app\\router.js",
+  "SelectedNode": "\\app\\controller\\mapserver.js",
   "PreviewInSolutionExplorer": false
 }
