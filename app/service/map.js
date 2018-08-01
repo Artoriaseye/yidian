@@ -17,7 +17,7 @@
                 });
                 sortedList = grouped(schools, 'pinyin');
                 // »º´æ24Ð¡Ê±
-                app.redis.set('api_schools', JSON.stringify(sortedList), 'PX', 1000 * 60 * 60 * 24);
+                app.redis.set('ap', JSON.stringify(sortedList), 'PX', 1000 * 60 * 60 * 24);
             }
             ctx.body = {
                 code: 0,

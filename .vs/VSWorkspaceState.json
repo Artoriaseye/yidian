@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\test",
-    "\\test\\app",
-    "\\test\\app\\controller"
+    "\\app\\service",
+    "\\app\\utils"
   ],
-  "SelectedNode": "\\app\\router.js",
+  "SelectedNode": "\\app\\service\\user.js",
   "PreviewInSolutionExplorer": false
 }
