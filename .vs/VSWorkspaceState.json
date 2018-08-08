@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app",
-    "\\app\\service",
-    "\\app\\utils"
+    "\\app"
   ],
-  "SelectedNode": "\\app\\service\\map.js",
+  "SelectedNode": "\\app\\view",
   "PreviewInSolutionExplorer": false
 }
