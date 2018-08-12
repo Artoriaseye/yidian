@@ -1,0 +1,15 @@
+
+  <view class="container flex-column _eb6a395">
+    <view class="top-container flex-rest-height _eb6a395">
+      <view class="logo _eb6a395">
+        <image src="../assets/images/logo.png" class="logo-image _eb6a395"/>
+      </view>
+      <view class="name _eb6a395">HiApp</view>
+      <view class="about _eb6a395">
+        <text class="about-text _eb6a395">GitHub: BelinChung/weapp-hiapp</text>
+        <text class="about-text _eb6a395">Email: BelinChung@gmail.com</text>
+        <text class="about-text _eb6a395">Twitter: @BelinChung</text>
+      </view>
+    </view>
+    <view class="bottom-container _eb6a395">Copyright © 2018 BelinChung.</view>
+  </view>

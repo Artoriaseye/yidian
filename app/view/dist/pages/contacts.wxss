@@ -1,0 +1,19 @@
+.container._738182f {
+  margin: 10px 0 20px 0;
+}
+.container .zan-panel._738182f {
+  margin-top: 0;
+}
+.container .zan-panel .avatar._738182f {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 8px 0;
+  margin-right: 10px;
+}
+.container .sep._738182f {
+  color: #7e7d83;
+  font-size: 13px;
+  margin: 5px;
+  padding-left: 10px;
+}

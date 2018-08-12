@@ -1,0 +1,27 @@
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 10rpx;
+}
+
+.page-body-button {
+  margin-bottom: 30rpx;
+}
+
+.cover-view-button{
+  margin-bottom: 30rpx;
+}
+
+.mini-btn{
+    margin-right: 10px;
+}
+
+.button-sp-area{
+    margin: 0 auto;
+    padding-top: 900rpx;
+    width: 61.8%;
+}
+
+.mylist{
+  margin: 10 auto;
+  width: 50%;
+}

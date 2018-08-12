@@ -1,0 +1,56 @@
+.editor-comp .textarea._5443d93 {
+  width: 100%;
+  height: 150px;
+  font-size: 15px;
+  border: none;
+  color: #444;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.editor-comp .tools._5443d93 {
+  width: 100%;
+  height: 40px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #dadada;
+  border-top: 1px solid #dadada;
+  align-items: center;
+}
+.editor-comp .tools .tool._5443d93 {
+  width: 50px;
+  height: 100%;
+  text-align: center;
+}
+.editor-comp .tools .tool > icon._5443d93 {
+  font-size: 24px;
+  color: #666;
+}
+.editor-comp .tools .submit-btn._5443d93 {
+  background-color: #ff9630;
+  color: #fff;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  border-color: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 0 10px;
+}
+.editor-comp .tools .submit-btn._5443d93::after {
+  display: none;
+}
+.editor-comp .uploader._5443d93 {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1rpx dashed #ccc;
+  border-radius: 5px;
+  margin: 20px 0 0 20px;
+}
+.editor-comp .uploader > image._5443d93 {
+  width: 60px;
+  height: 60px;
+}

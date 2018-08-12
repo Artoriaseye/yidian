@@ -1,0 +1,39 @@
+
+  <view class="container _9db0bff">
+    <view class="zan-panel _9db0bff">
+      <navigator class="zan-cell zan-cell--access user-info-cell _9db0bff" url="./profile">
+        <view class="zan-cell__icon avatar-container _9db0bff">
+          <image class="avatar _9db0bff" src="{{userInfo.avatarUrl}}"/>
+        </view>        
+        <view class="zan-cell__bd _9db0bff">
+          <view class="nickname _9db0bff">{{userInfo.nickName}}</view>
+          <view class="location _9db0bff">{{userInfo.province}} {{userInfo.city}}</view>
+        </view>
+        <view class="zan-cell__ft _9db0bff"/>
+      </navigator>
+    </view>
+
+    <view class="zan-panel _9db0bff">
+      <navigator class="zan-cell zan-cell--access _9db0bff" url="./language">
+        <icon class="zan-cell__icon iconfont icon-language _9db0bff"/>        
+        <view class="zan-cell__bd _9db0bff">Language</view>
+        <view class="zan-cell__ft _9db0bff"/>
+      </navigator>
+    </view>
+
+    <view class="zan-panel _9db0bff">
+      <navigator class="zan-cell zan-cell--access _9db0bff" url="./feedback">
+        <icon class="zan-cell__icon iconfont icon-feedback2 _9db0bff"/>        
+        <view class="zan-cell__bd _9db0bff">Feedback</view>
+        <view class="zan-cell__ft _9db0bff"/>
+      </navigator>
+    </view>
+
+    <view class="zan-panel _9db0bff">
+      <navigator class="zan-cell zan-cell--access _9db0bff" url="./about">
+        <icon class="zan-cell__icon iconfont icon-about1 _9db0bff"/>        
+        <view class="zan-cell__bd _9db0bff">About</view>
+        <view class="zan-cell__ft _9db0bff"/>
+      </navigator>
+    </view>
+  </view>

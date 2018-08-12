@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/contacts",
+    "pages/settings",
+    "pages/profile",
+    "pages/about",
+    "pages/language",
+    "pages/feedback",
+    "pages/publisher",
+    "pages/post",
+    "pages/comment"
+  ],
+  "window": {
+    "backgroundColor": "#efeff4",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ff9630",
+    "navigationBarTitleText": "易电",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "selectedColor": "#ff9630",
+    "backgroundColor": "#f7f7f8",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "附近易电",
+        "iconPath": "assets/images/home-outline.png",
+        "selectedIconPath": "assets/images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/contacts",
+        "text": "商家信息",
+        "iconPath": "assets/images/contacts-outline.png",
+        "selectedIconPath": "assets/images/contacts-selected.png"
+      },
+      {
+        "pagePath": "pages/settings",
+        "text": "个人中心",
+        "iconPath": "assets/images/settings-outline.png",
+        "selectedIconPath": "assets/images/settings-selected.png"
+      }
+    ]
+  }
+}

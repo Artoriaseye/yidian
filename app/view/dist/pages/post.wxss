@@ -1,0 +1,41 @@
+@import "./../components/card.wxss";
+.comments._123b6fc {
+  background-color: #fff;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 15px;
+}
+.comments .title._123b6fc {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 10px;
+  font-size: 13px;
+}
+.comments .comment._123b6fc {
+  border-top: 1px solid #dadada;
+  padding: 10px;
+  font-size: 14px;
+}
+.comments .comment .avatar._123b6fc {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.comments .comment .detail._123b6fc {
+  margin-left: 8px;
+}
+.comments .comment .detail .name._123b6fc {
+  font-size: 13px;
+  color: #333;
+}
+.comments .comment .detail .time._123b6fc {
+  font-size: 11px;
+  color: #929292;
+  margin-bottom: 2px;
+}
+.comments .comment .detail .text._123b6fc {
+  line-height: 20px;
+  color: #5d5d5d;
+  word-wrap: break-word;
+  word-break: normal;
+}

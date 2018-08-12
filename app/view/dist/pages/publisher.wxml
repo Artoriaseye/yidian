@@ -1,0 +1,18 @@
+
+  <view class="container">
+    
+  <view class="editor-comp _5443d93">
+    <form bindsubmit="$editor$formSubmit" report-submit class="_5443d93">
+      <textarea name="content" placeholder="{{$editor$placeholder}}" class="textarea _5443d93" bindinput="$editor$contentChange"/>
+      <view class="tools flex-row _5443d93">
+        <view class="flex-reset-width _5443d93">
+          <view class="tool _5443d93"  wx:if="{{$editor$enableLocation}}"><icon class="iconfont icon-location _5443d93"/></view>
+        </view>
+        <button form-type="submit" class="submit-btn _5443d93">submit</button>
+      </view>
+      <view class="uploader _5443d93"  wx:if="{{$editor$enableUploader}}">
+        <image src="../assets/images/plus.png" class="_5443d93"/>
+      </view>
+    </form>
+  </view>
+  </view>

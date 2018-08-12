@@ -1,0 +1,12 @@
+.avatar-cell._6344631 {
+  height: 70px;
+}
+.avatar-cell .avatar-container._6344631 {
+  display: flex;
+  align-items: center;
+}
+.avatar-cell .avatar-container .avatar._6344631 {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}

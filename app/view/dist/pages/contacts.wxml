@@ -1,0 +1,15 @@
+
+  <view class="container _738182f">
+    <block class="_738182f" wx:for="{{contacts}}" wx:for-index="index" wx:for-item="list" wx:key="index">
+      <view class="sep _738182f">{{index}}</view>
+      <view class="zan-panel _738182f">
+        <block class="_738182f" wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+          <view class="zan-cell _738182f"> 
+            <image class="zan-cell__icon avatar _738182f" src="{{item.avatarUrl}}"/>
+            <view class="zan-cell__bd _738182f">{{item.nickname}}</view>
+            <view class="zan-cell__ft _738182f">{{item.location}}</view>
+          </view>
+        </block>            
+      </view>      
+    </block>
+  </view>

@@ -1,0 +1,26 @@
+.icon-language._9db0bff {
+  color: #09f;
+}
+.icon-feedback2._9db0bff {
+  color: #0c9;
+}
+.icon-about1._9db0bff {
+  color: #fc3;
+}
+.user-info-cell._9db0bff {
+  height: 70px;
+}
+.user-info-cell .avatar-container._9db0bff {
+  display: flex;
+  align-items: center;
+}
+.user-info-cell .avatar-container .avatar._9db0bff {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+.user-info-cell .location._9db0bff {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #858585;
+}

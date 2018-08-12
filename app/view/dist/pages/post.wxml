@@ -1,0 +1,48 @@
+
+  <view class="container _123b6fc">
+    
+  <view class="card post-card _aa632b6 _123b6fc">
+    <view class="header flex-row _aa632b6">
+      <image class="avatar _aa632b6" src="{{$card$post.avatarUrl}}"/>
+      <view class="user flex-column _aa632b6">
+        <view class="name _aa632b6">{{$card$post.nickname}}</view>
+        <view class="time _aa632b6">#{{$card$post.id}} {{$card$post.time}}</view>
+      </view>
+    </view>
+    <view class="content _aa632b6">
+      <view class="text _aa632b6">{{$card$post.text}}</view>
+      <image  wx:if="{{$card$post.original_pic}}" class="image _aa632b6" src="{{$card$post.original_pic}}" mode="widthFix" lazy-load="true" catchtap="$card$previewImage"/>
+    </view>
+    <view class="footer flex-row {{ $card$bottomToolbar ? 'bottom' : '' }} _aa632b6">
+      <view class="tool tool-border flex-rest-width _aa632b6" catchtap="$card$navToComment" data-wpynavtocomment-a="{{$card$post}}">
+        <view class="iconfont icon-comment _aa632b6"/>
+        <view class="text _aa632b6">{{$card$post.comment_count ? $card$post.comment_count : 'Comment'}}</view>
+      </view>  
+      <view class="tool flex-rest-width _aa632b6" catchtap="$card$toggleLike">
+        <view class="iconfont icon-like _aa632b6"/>
+        <view class="text _aa632b6">{{$card$post.like_count ? $card$post.like_count : 'Like'}}</view>
+      </view>
+    </view>
+  </view>
+    <view class="comments _123b6fc">
+      <view class="title _123b6fc">Comment</view>
+      <view class="clist _123b6fc">
+        <view  wx:if="{{ comments.length }}" class="_123b6fc">
+          <block class="_123b6fc" wx:for="{{comments}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+            <view class="comment flex-row _123b6fc">
+              <image src="{{item.avatarUrl}}" class="avatar _123b6fc"/>
+              <view class="detail flex-rest-width _123b6fc">
+                <view class="name _123b6fc">{{item.name}}</view>
+                <view class="time _123b6fc">{{item.time}}</view>
+                <view class="text _123b6fc">{{item.text}}</view>
+              </view>
+            </view>
+          </block>
+        </view>
+        <view class="empty-content _123b6fc"  wx:else>
+          <icon class="iconfont icon-wujieguoyangshi _123b6fc"/>
+          <view class="text _123b6fc">Empty Container</view>
+        </view>
+      </view>
+    </view>
+  </view>

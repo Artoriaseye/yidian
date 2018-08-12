@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app"
+    "\\app",
+    "\\app\\model",
+    "\\app\\public",
+    "\\app\\service"
   ],
-  "SelectedNode": "\\app\\view",
+  "SelectedNode": "\\app\\model\\user.js",
   "PreviewInSolutionExplorer": false
 }

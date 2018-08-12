@@ -1,0 +1,34 @@
+
+  <view class="container _e6e7e5a">
+    <block class="_e6e7e5a" wx:for="{{timeline}}" wx:for-index="index" wx:for-item="item" wx:key="index">
+      <view bindtap="navToPost" class="_e6e7e5a" data-wpynavtopost-a="{{item}}">
+        
+  <view class="card post-card _aa632b6 _e6e7e5a">
+    <view class="header flex-row _aa632b6">
+      <image class="avatar _aa632b6" src="{{item.avatarUrl}}"/>
+      <view class="user flex-column _aa632b6">
+        <view class="name _aa632b6">{{item.nickname}}</view>
+        <view class="time _aa632b6">#{{item.id}} {{item.time}}</view>
+      </view>
+    </view>
+    <view class="content _aa632b6">
+      <view class="text _aa632b6">{{item.text}}</view>
+      <image  wx:if="{{item.original_pic}}" class="image _aa632b6" src="{{item.original_pic}}" mode="widthFix" lazy-load="true" catchtap="$card$previewImage" data-com-index="{{index}}"/>
+    </view>
+    <view class="footer flex-row {{ $card$bottomToolbar ? 'bottom' : '' }} _aa632b6">
+      <view class="tool tool-border flex-rest-width _aa632b6" catchtap="$card$navToComment" data-com-index="{{index}}" data-wpynavtocomment-a="{{item}}">
+        <view class="iconfont icon-comment _aa632b6"/>
+        <view class="text _aa632b6">{{item.comment_count ? item.comment_count : 'Comment'}}</view>
+      </view>  
+      <view class="tool flex-rest-width _aa632b6" catchtap="$card$toggleLike" data-com-index="{{index}}">
+        <view class="iconfont icon-like _aa632b6"/>
+        <view class="text _aa632b6">{{item.like_count ? item.like_count : 'Like'}}</view>
+      </view>
+    </view>
+  </view>        
+      </view>
+    </block>
+    <navigator url="./publisher" class="publisher-btn _e6e7e5a">
+      <image src="../assets/images/feather.png" class="_e6e7e5a"/>
+    </navigator>
+  </view>

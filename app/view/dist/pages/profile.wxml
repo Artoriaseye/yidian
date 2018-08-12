@@ -1,0 +1,26 @@
+
+  <view class="container _6344631">
+    <view class="zan-panel _6344631">
+      <view class="zan-cell avatar-cell _6344631">       
+        <view class="zan-cell__bd _6344631">Avatar</view>
+        <view class="zan-cell__ft avatar-container _6344631">
+          <image class="avatar _6344631" src="{{userInfo.avatarUrl}}"/>
+        </view>
+      </view>
+      <view class="zan-cell _6344631">    
+        <view class="zan-cell__bd _6344631">Nickname</view>
+        <view class="zan-cell__ft _6344631">{{userInfo.nickName}}</view>
+      </view>
+    </view>
+
+    <view class="zan-panel _6344631">
+      <view class="zan-cell _6344631">       
+        <view class="zan-cell__bd _6344631">Gender</view>
+        <view class="zan-cell__ft _6344631">{{gender}}</view>
+      </view>
+      <view class="zan-cell _6344631">      
+        <view class="zan-cell__bd _6344631">City</view>
+        <view class="zan-cell__ft _6344631">{{userInfo.province}} {{userInfo.city}}</view>
+      </view>
+    </view>
+  </view>
